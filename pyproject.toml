@@ -1,0 +1,24 @@
+[project]
+name = "EjerciciosPython"
+version = "0.1"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 80
+
+[tool.flake8]
+max-line-length = 80
+docstring-convention = "numpy"
+extend-ignore = ["D412" ]
+
+[tool.sphinx]
+project = "Ejercicios Python"
+author = "DAPM"
+version = "0.1.0"
+release = "0.1.0"
+language = "es"
+
+

@@ -1,0 +1,6 @@
+sphinx
+numpydoc
+python_docs_theme
+black
+flake8
+toml
