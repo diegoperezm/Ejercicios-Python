@@ -4,4 +4,5 @@ ejercicios
 .. toctree::
    :maxdepth: 4
 
-   add
+   resta
+   suma

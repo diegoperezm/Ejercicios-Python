@@ -1,7 +1,7 @@
-add module
-==========
+suma module
+===========
 
-.. automodule:: add
+.. automodule:: suma
    :members:
    :show-inheritance:
    :undoc-members:
