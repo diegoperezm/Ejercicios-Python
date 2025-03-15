@@ -48,19 +48,19 @@ echo "Iniciando configuración del entorno..."
                 sed -i "1i\\
 import os\\
 import sys\\
-sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), '..', '..', 'src')))" docs/source/conf.py
+sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), '..', '..', 'ejercicios')))" docs/source/conf.py
              else
 	       echo " No se encontró docs/source/conf.py. Verifica la estructura de documentación."
              fi
 
 	     # Generar archivos .rst a partir del código fuente
-	     if [ -d "src" ]; then
+	     if [ -d "ejercicios" ]; then
 	         echo "Generando documentación a partir de los archivos Python..."
-	             sphinx-apidoc -o docs/source src
+	             sphinx-apidoc -o docs/source ejercicios
 		     echo "   modules" >> docs/source/index.rst 
                      
 	             else
-	                 echo " No se encontró el directorio 'src'. Asegúrate de que tu código esté en 'src'."
+	                 echo " No se encontró el directorio 'ejercicios'. Asegúrate de que tu código esté en 'ejercicios'."
 	                 fi
 	    
 	                 # Generar la documentación HTML

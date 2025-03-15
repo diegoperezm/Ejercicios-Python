@@ -1,5 +1,5 @@
-src
-===
+ejercicios
+==========
 
 .. toctree::
    :maxdepth: 4

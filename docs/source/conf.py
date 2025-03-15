@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), '..', '..', 'src')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), '..', '..', 'ejercicios')))
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
